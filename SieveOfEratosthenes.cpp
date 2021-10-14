@@ -58,9 +58,11 @@ void SieveOfEratosthenes(int n)
 int main() 
 { 
 
-    int n = 100; 
+    int n; 
+    cout<<"Enter Number:"<<endl;
+    cin>>n;
 
-    cout << "Following are the prime numbers smaller "
+    cout << "Following are the prime numbers smaller"
 
          << " than or equal to " << n << endl; 
 
